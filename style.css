@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+
+ul{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+#mainlist{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.links{
+    text-decoration: none;
+    color: green;
+    
+}
+#home{
+    margin: 8% 0px 0px 8%;
+    
+}
+#homecontent{
+    font-weight:4% 0px 0px 8%;
+}
+#homeheading{
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+    color: green;
+
+
+}
+#homeimage{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+#fruit{
+    height: 500px;
+    width: 700px;
+}
+#definition{
+    font-family: "Satisfy", cursive;
+    margin-left: 20px;
+    line-height: 1.3rem;
+    font-size: 20px;
+}
+#homebutton{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: green;
+}
+#catalog{
+    margin: 15% 0% 0px 8%;
+}
+#catimg{
+    height: 500px;
+    width: 780px;
+}
+#catalogheading{
+    text-align: center;
+    margin-left: 400px;
+    margin-top: -450px;
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+}
+#catalogpara{
+    text-align: center;
+    margin-left: 800px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+}
+#a{
+    text-align: center;
+    margin-left: 1100px;
+   margin-top: 30px;
+   color: white;
+   background-color: green;
+}
+#photo{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 30px;
+    margin-left: 400px;
+    margin: 15%;
+}
+#photo1{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4TZNvQQiaiy0uzBWtHubKDZuE1H3s_D2m3g&s");
+    height: 400px;
+    width: 700px;
+    background-size: cover;
+}
+#photo2{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgdT38UHcBMRMVM44n1gUyWLo96Ln3vCtcKw&s");
+   background-color: black;
+   height: 200px;
+   width: 500px;
+   margin-left: 400px;
+   background-size: cover;
+   
+}
+#photo3{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiUPSGYmxakTAyGIz3vzzyd-k9PmWxOnktag&s");
+    height: 200px;
+    width: 500px;
+    margin-left: 710px;
+    margin-top: -225px; 
+ }
+ #b{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 20px;
+ }
+ #c{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+ }
+ #d{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+ }
+ #menuitemhead{
+    text-align: center;
+    margin-top: -200px;
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+
+ }
+ #mango{
+    height: 200px;
+    width: 300px;
+    margin-left: 190px;
+    
+ }
+ #indica{
+    margin-left: 200px;
+    font-family: "Satisfy", cursive;
+ }
+ #indicapara{
+    font-family: "Satisfy", cursive;
+    margin-left: 190px;
+ }
+ #mangoB{
+    margin-left: 300px;
+    margin-top: 10px;
+    color: white;
+    background-color: green;
+ }
+#mango{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+#avocado{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    margin-left: 700px;
+    margin-top: -400px;
+    
+}
+#apple{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(30, 12, 228);
+    margin-left: 1200px;
+    margin-top: -400px;
+}
+#mangohead{
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+}
+#avocadohead{
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+    margin-left: 90px;
+}
+#applehead{
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+    margin-left: 120px;
+}
+#indicabu{
+    margin-left: 150px;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+#avocadobu{
+    margin-left: 150px;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+#applebu{
+    margin-left: 150px;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+#dragonfruit{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(30, 12, 228);
+   margin-top: 300px;
+   margin-left: 200px;
+}
+#pomegranate{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(228, 12, 192);
+    margin-left: 690px;
+    margin-top: -400px;
+  
+}
+#litchi{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(20, 17, 20);
+   margin-left: 1200px;
+   margin-top: -400px;
+}
+#dragonhead{
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+}
+#pomehead{
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+    margin-left: 70px;
+}
+#litchihead{
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+    color: green;
+    margin-left: 90px;
+}
+#dragonbu{
+    margin-left: 150px;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+#pomebu{
+    margin-left: 150px;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+#litchibu{
+    margin-left: 150px;
+   margin-top: 20px;
+   color: white;
+   background-color: green;
+}
+p{
+    font-family: "Satisfy", cursive;
+}
+#aboutus{
+    height: 900px;
+    width: 600px;
+    background-color: blueviolet;
+    margin-top: 230px;
+    
+}
+#aboutushead{
+    text-align: center;
+    margin-left: 1020px;
+    margin-top: -800px;
+    font-family: "Pacifico", cursive;
+    font-size: 80px;
+    color: green;
+  padding: 80px;
+
+
+}
+#aboutpara{
+   
+    margin-left: 700px;
+    margin-top: -500px;
+    font-size: 20px;
+    line-height: 2rem;
+}
+#aboutpara1{
+    margin-left: 700px;
+    font-size: 20px;
+    line-height: 2rem;
+}
+#aboutpara2{
+    margin-left: 700px;
+    font-size: 20px;
+    line-height: 2rem;
+}
+#last{
+    background-color: rgb(31, 167, 62);
+    height: 400px;
+    padding: 30px;
+    margin-top: 30px;
+}
+ 
+
+
+ 
+
+
+ 
